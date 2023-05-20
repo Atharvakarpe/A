@@ -1,5 +1,5 @@
 VB.NET
-Write a Vb.net program for blinking an image
+Q1Write a Vb.net program for blinking an image
 Program:- 
 Public Class slip2
 
@@ -20,8 +20,11 @@ Design:-
 3) Insert image on Picturebox 
 
 4) To fit the image PictureBox set Sizemode property to StretchImage
-...............///////////.........../////////........///////////.......///////////
 
+
+...............///////////.........../////////........///////////.......///////////
+Q2
+.......////////
 // C# program to create marksheet for students.
 using System;
 using System.Collections.Generic;
@@ -99,8 +102,29 @@ static void Main(string[] args)
 }
 
 .......///////...../////////.........//////////////...........///////////..........///////////
+Q1 java
+	.......................
+public class Demo extends Thread{
+public void run(){
+for (int i = 0; i < 5; i++) {
+System.out.println("The Thread name is " + Thread.currentThread().getName());
+}
+}
+public static void main(String[] args) {
+Demo t1 = new Demo();
+t1.setName("Main Thread");
+t1.start();
+Thread t2 = currentThread();
+t2.setName("Current Thread");
+for (int i = 0; i < 5; i++) {
+System.out.println("The Thread name is " + t1.currentThread().getName());
+}
+}
+}
 
-
+.......///////...../////////.........//////////////...........///////////..........///////////
+Q2
+.......
 import ="java.sql.*"
 <html>
 <head>
@@ -140,4 +164,6 @@ out.println("Error: " + e.getMessage());
 </table>
 </body>
 </html>
+	
+.............//////////////.............////////////............/////////////.......////////////////
 
